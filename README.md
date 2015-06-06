@@ -9,7 +9,7 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 
 Very simple. Just copy the CSS and JS file to your project and reference them:
 
-```javascript
+```html
 <link rel="stylesheet" href="upscroller.css">
 <script type="text/javascript" src="upscroller.js"></script>
 ```
