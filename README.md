@@ -17,7 +17,7 @@ Very simple. Just copy the CSS and JS file to your project and reference them:
 Then, when you initialize your app, just do:
 
 ```javascript
-fw7App.upscroller('Go up'); // Add any text you like there
+fw7App.upscroller('Go up'); // You can define the label of the button here
 ```
 
 ## Customize it
