@@ -24,6 +24,6 @@ fw7App.upscroller('Go up'); // You can define the label of the button here
 
 To change the look and feel, just edit upscroller.css and you should be ready to go! Let me know if you need any other stuff that you miss!
 
-That's it. Have fun!
+## That's it. Happy coding! :-)
 
 Made with <3 by www.timo-ernst.net
