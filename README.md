@@ -5,6 +5,10 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 
 ![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/master/screenshot.jpg)
 
+## Demo
+
+Check here http://www.timo-ernst.net/misc/upscrollerdemo/
+
 ## How to use
 
 Very simple. Just copy the CSS and JS file to your project and reference them:
