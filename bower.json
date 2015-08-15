@@ -1,0 +1,21 @@
+{
+  "name": "Framework7-Upscroller-Plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/valnub/Framework7-Upscroller-Plugin",
+  "authors": [
+    "Timo Ernst",
+    "Kivanc Sahici"
+  ],
+  "description": "A little plugin to give users a button to scroll up",
+  "main": "dist/upscroller.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "build",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "framework7": "~1.2.0"
+  }
+}
