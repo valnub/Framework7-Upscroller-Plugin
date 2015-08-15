@@ -1,0 +1,12 @@
+{
+  "name": "Framework7-Upscroller-Plugin-Demo",
+  "description": "Demo for Framework7-Upscroller-Plugin plugin", 
+  "authors": [
+    "Timo Ernst",
+    "Kivanc Sahici"
+  ],
+  "license": ["MIT"],
+  "dependencies": {
+    "framework7": "~1.2.0"
+  }
+}
