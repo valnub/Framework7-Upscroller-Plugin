@@ -7,7 +7,10 @@
     "Kivanc Sahici"
   ],
   "description": "A little plugin to give users a button to scroll up",
-  "main": "dist/upscroller.js",
+  "main": [
+    "dist/framework7.upscroller.js",
+    "dist/framework7.upscroller.css",
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -16,6 +19,5 @@
     "bower_components"
   ],
   "dependencies": {
-    "framework7": "~1.2.0"
-  }
+  },
 }
