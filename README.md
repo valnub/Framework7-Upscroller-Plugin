@@ -7,21 +7,28 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 
 ## Demo
 
-Check here http://www.timo-ernst.net/misc/upscrollerdemo/
+Plugin comes with demo example to see how it works and looks. 
+* To check the demo directly from the repository, you should install bower dependencies.  
+Go to `demo/` folder and execute in terminal `bower install` 
+
+* Or you could simply check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 
 ## How to use
 
-Very simple. Just copy the CSS and JS file to your project and reference them:
+Very simple. Just copy the CSS and JS files from `dist/` folder to your project and reference them:
 
 ```html
-<link rel="stylesheet" href="upscroller.css">
-<script type="text/javascript" src="upscroller.js"></script>
+<link rel="stylesheet" href="upscroller.min.css">
+<script type="text/javascript" src="upscroller.min.js"></script>
 ```
 
-Then, when you initialize your app, just do:
+The plugin will be initialized automatically. The default label of the button is 'Go up'. 
+If you'd like to change the button label, simply declare it during your app's initialization.
 
 ```javascript
-fw7App.upscroller('Go up'); // You can define the label of the button here
+fw7App = new Framework7({
+  upscroller: {text : 'Your button label'}
+});
 ```
 
 ## Customize it
