@@ -9,7 +9,7 @@
   "description": "A little plugin to give users a button to scroll up",
   "main": [
     "dist/framework7.upscroller.js",
-    "dist/framework7.upscroller.css",
+    "dist/framework7.upscroller.css"
   ],
   "license": "MIT",
   "ignore": [
@@ -18,6 +18,5 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-  },
+  "dependencies": {}
 }
