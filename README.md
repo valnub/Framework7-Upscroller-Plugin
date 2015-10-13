@@ -1,5 +1,4 @@
 # Upscroller Plugin for Framework7
-### A little plugin to give users a button to scroll up
 
 ## Wait! Read this before you install!
 
