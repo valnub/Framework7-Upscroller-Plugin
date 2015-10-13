@@ -1,5 +1,13 @@
 # Upscroller Plugin for Framework7
-## A little plugin to give users a button to scroll up
+### A little plugin to give users a button to scroll up
+
+## Wait! Read this before you install!
+
+Let me guess: You're using Framework7 with PhoneGap/Cordova on iOS and you need this plugin as a workaround for not being able to tap the status bar and automatically scroll up, right? Well then, better read this first: http://timo-ernst.net/blog/2015/10/05/how-to-scroll-up-by-tapping-status-bar-in-cordovaphonegap-apps-on-ios-with-webkit-overflow-scrollingtouch/
+
+If you still need the plugin for a different purpose then go ahead and install this plugin and have fun :-)
+
+## Plugin description
 
 The problem with a lot of webapps is that you can't scroll the content up by simply clicking the top bar of the screen, this also includes apps created with Framework7. The reason for this is that not the document itself is scrolled, but the content of a div element is. This leads to nice looking momentum and fixes most problems with position:fixed elements. However, one big flaw is that you take away the user's ability to quickly scroll up a list by simply clicking the top of the screen. This little plugin for Framework7 fixes this by showing a small blue button at the top of the screen once the user has started scrolling down a bit. It looks like this:
 
