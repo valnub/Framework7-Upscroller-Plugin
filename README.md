@@ -45,3 +45,5 @@ To change the look and feel, just edit upscroller.css and you should be ready to
 ## That's it. Happy coding! :-)
 
 Made with <3 by www.timo-ernst.net
+
+My YouTube channel about Framework7: http://youtube.com/xvalmar
