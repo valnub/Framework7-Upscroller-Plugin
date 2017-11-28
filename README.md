@@ -40,7 +40,7 @@ fw7App = new Framework7({
 
 ## Ignore pages
 
-The Upscroller Plugin is included in every page you enter. If you want to ignore the upscroller plugin in some pages, you may now user the following parameter:
+The Upscroller Plugin is included in every page you enter. If you want to ignore the upscroller plugin in some pages, you may now use the following parameter:
 
 ```javascript
 fw7App = new Framework7({
