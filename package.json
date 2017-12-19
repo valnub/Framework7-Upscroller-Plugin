@@ -2,7 +2,7 @@
   "name": "Framework7-Upscroller-Plugin",
   "version": "0.0.1",
   "description": "A little plugin to give users a button to scroll up",
-  "main": "upscroller.js",
+  "main": "src/framework7.upscroller.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/valnub/Framework7-Upscroller-Plugin.git"
