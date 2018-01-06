@@ -16,7 +16,7 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 
 Plugin comes with demo example to see how it works and looks.
 * Go to `/demo/` folder and open index.html
-
++ Or make sure that you have gulp installed (`npm install -g gulp`) and then just run default task `gulp`
 * Or you could simply check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 
 ## How to use
