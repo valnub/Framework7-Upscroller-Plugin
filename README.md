@@ -15,8 +15,7 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 ## Demo
 
 Plugin comes with demo example to see how it works and looks.
-* To check the demo directly from the repository, you should install bower dependencies.  
-Go to `demo/` folder and execute in terminal `bower install`
+* Go to `/demo/` folder and open index.html
 
 * Or you could simply check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 
