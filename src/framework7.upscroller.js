@@ -15,8 +15,9 @@ Framework7.prototype.plugins.upscroller = function (app, params) {
 
 				$$btn.click(function(event) {
 					event.stopPropagation();
-				    event.preventDefault();
-				    var curpage = $$(".page-content", f7.mainView.activePage.container);
+					event.preventDefault();
+					var mainViewContainer = typeof f7 !== 'undefined' ? f7.mainView.activePage.container : mainView.activePage.container;
+				    var curpage = $$(".page-content", mainViewContainer);
 				    $$(curpage).scrollTop(0, Math.round($$(curpage).scrollTop()/4));
 				});
 
