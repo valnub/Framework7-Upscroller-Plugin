@@ -43,3 +43,5 @@ gulp.task('connect', function() {
 });
 
 gulp.task('server', [ 'connect', 'open' ]);
+
+gulp.task('default', ['build', 'server']);
