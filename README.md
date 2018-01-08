@@ -1,5 +1,9 @@
 # Upscroller Plugin for Framework7
 
+### Compatibility
+- v1: Yes
+- v2: No
+
 ## Wait! Read this before you install!
 
 Let me guess: You're using Framework7 with PhoneGap/Cordova on iOS and you need this plugin as a workaround for not being able to tap the status bar and automatically scroll up, right? Well then, better read this first: http://timo-ernst.net/blog/2015/10/05/how-to-scroll-up-by-tapping-status-bar-in-cordovaphonegap-apps-on-ios-with-webkit-overflow-scrollingtouch/
