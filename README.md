@@ -40,7 +40,8 @@ var app = new Framework7({
   upscroller: {
     text: 'New text!',
   },
-});```
+});
+```
 
 ## Ignore pages
 
