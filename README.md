@@ -38,7 +38,7 @@ var app = new Framework7({
   root: '#app', // Your app root id
   theme: 'ios',
   upscroller: {
-    text: 'New text!',
+    text: 'New text!', // Change button label text here!
   },
 });
 ```
