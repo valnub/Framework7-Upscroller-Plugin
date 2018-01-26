@@ -1,11 +1,5 @@
 # Upscroller Plugin for Framework7
 
-### F7 compatibility
-- v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
-- v2: Yes
-
-## Plugin description
-
 The problem with a lot of webapps is that you can't scroll the content up by simply clicking the top bar of the screen, this also includes apps created with Framework7. The reason for this is that not the document itself is scrolled, but the content of a div element is. This leads to nice looking momentum and fixes most problems with position:fixed elements. However, one big flaw is that you take away the user's ability to quickly scroll up a list by simply clicking the top of the screen. This little plugin for Framework7 fixes this by showing a small blue button at the top of the screen once the user has started scrolling down a bit. It looks like this:
 
 ![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/master/screenshot.jpg)
@@ -15,6 +9,10 @@ The problem with a lot of webapps is that you can't scroll the content up by sim
 Plugin comes with demo example to see how it works and looks.
 + Make sure that you have gulp installed (`npm install -g gulp`) and then just run default task `gulp` from project directory.
 * Or you could simply check it here http://www.timo-ernst.net/misc/upscrollerdemo/
+
+### F7 compatibility
+- v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
+- v2: Yes
 
 ## How to use
 
