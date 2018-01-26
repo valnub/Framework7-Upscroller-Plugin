@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Upscroller for Framework7 v2 demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/2.0.6/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="src/framework7.upscroller.css">
+    <style>
+      .navbar{color: #333}
+      .main.page-content {text-align: center; font-size: 22px}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="statusbar"></div>
+      <div class="view view-main">
+        <div class="page" data-name="index" data-page="index">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">F7 Upscroller Plugin Demo</div>
+            </div>
+          </div>
+          <div class="page-content main">
+            <br>
+            scroll down
+            <script>
+              for (var i=0; i<20; i++) {
+                document.write('<br><br>↓<br><br>');
+              }
+            </script>
+            Click the blue button to scroll back up :-)<br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/framework7/2.0.6/js/framework7.min.js"></script>
+    <script type="text/javascript" src="src/framework7.upscroller.js"></script>
+    <script>
+      Framework7.use(f7UpscrollerPlugin);
+
+      var app = new Framework7({
+        root: '#app',
+        name: 'Upscroller demo',
+        id: 'de.timoernst.f7.upscroller',
+        theme: 'ios',
+        upscroller: {
+          // text: 'Nach unten',
+          // ignorePages: ['about'],
+        },
+      });
+
+      var mainView = app.views.create('.view-main');
+    </script>
+  </body>
+</html>

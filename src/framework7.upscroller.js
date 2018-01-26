@@ -1,36 +1,36 @@
-Framework7.prototype.plugins.upscroller = function (app, params) {
-    'use strict';
-    params = params || {text: 'Go up', ignorePages: []};
-    //Export selectors engine
-    var $$ = window.Dom7;
+f7UpscrollerPlugin = {
+	name: 'upscroller',
+	params: {
+		upscroller: {
+			text: 'Go up',
+			ignorePages: [],
+		}
+	},
+	on: {
+		pageInit: function (page) {
+			'use strict';
 
-    return {
-        hooks : {
-			pageBeforeInit: function (pageData) {
-        // Ignores upscroller plugin if page is ignored
-        if (params.ignorePages.includes(pageData.name)) return;
+			var app = this;
+			var params = app.params.upscroller;
+			var $$ = Dom7;
 
-				var $$btn = $$('<div class="upscroller">↑ ' + params.text + '</div>');
-				$$(pageData.container).prepend($$btn);
+			if (params.ignorePages.includes(page.name)) return;
 
-				$$btn.click(function(event) {
-					event.stopPropagation();
-					event.preventDefault();
-					var mainViewContainer = typeof f7 !== 'undefined' ? f7.mainView.activePage.container : mainView.activePage.container;
-				    var curpage = $$(".page-content", mainViewContainer);
-				    $$(curpage).scrollTop(0, Math.round($$(curpage).scrollTop()/4));
-				});
+			var $$btn = $$('<div class="upscroller">↑ ' + params.text + '</div>');
+			$$(page.el).prepend($$btn);
 
-				$$(".page-content", pageData.container).scroll(function(event){
-				  var e = $$(event.target).scrollTop();
-				  if(e > 300) {
-			          $$btn.addClass('show');
-				  }
-				  else {
-			          $$btn.removeClass('show');
-				  }
-				});
-            }
-        }
-    };
+			$$btn.click(function (event) {
+				event.stopPropagation();
+				event.preventDefault();
+				var pageContent = $$('.page-content', page.el);
+				pageContent.scrollTop(0, Math.round(pageContent.scrollTop() / 4));
+			});
+
+			$$(".page-content", page.el).scroll(function (event) {
+				var e = $$(event.target).scrollTop();
+				if (e > 300) $$btn.addClass('show');
+				else $$btn.removeClass('show');
+			});
+		},
+	}
 };
