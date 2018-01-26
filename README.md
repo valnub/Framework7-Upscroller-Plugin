@@ -1,6 +1,6 @@
 # Upscroller Plugin for Framework7
 
-### Compatibility
+### F7 compatibility
 - v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
 - v2: Yes
 
