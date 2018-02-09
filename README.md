@@ -4,20 +4,6 @@ This plugin creates a blue button which slides in from the top of the screen whe
 
 ![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/master/demo.gif)
 
-## Example
-Open `demo/dist/index.html` in your browser.
-
-### Demo source code
-Check `demo/src/index.js`.
-
-### Run a new demo build:
-
-```shell
-$ cd demo
-$ npm install
-$ npm run build
-```
-
 ## Live demo
 Check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 
@@ -27,7 +13,7 @@ Check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 npm install f7-upscroller
 ```
 
-Then in your code something like this:
+## How to use
 
 ```javascript
 import upscroller from 'f7-upscroller';
@@ -66,6 +52,12 @@ var app = new Framework7({
 });
 ```
 
+## Example
+Open `demo/dist/index.html` in your browser.
+
+### Demo source code
+Check `demo/src/index.js`
+
 ### F7 compatibility
 - v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
 - v2: Yes
@@ -74,7 +66,6 @@ var app = new Framework7({
 | ------------- |:-------------:|
 | 1.x           | No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).) |
 | 2.x (V2)      | Yes      |
-
 
 ## That's it. Happy coding! :-)
 
