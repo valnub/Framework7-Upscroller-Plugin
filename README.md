@@ -41,8 +41,6 @@ The default label of the button is 'Go up'. If you'd like to change the button l
 The Upscroller Plugin is included in every page you enter. If you want to ignore the upscroller plugin in some pages, you may now use the following parameter:
 
 ```javascript
-Framework7.use(f7UpscrollerPlugin);
-
 var app = new Framework7({
   root: '#app', // Your app root id
   theme: 'ios',
