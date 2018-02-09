@@ -4,11 +4,18 @@
   "description": "A demo app that shows how to use f7-upscroller",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack src/index.js dist/bundle.js"
   },
   "author": "Timo Ernst",
   "license": "MIT",
   "dependencies": {
     "f7-upscroller": "github:valnub/Framework7-Upscroller-Plugin"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
   }
 }
