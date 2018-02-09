@@ -1,12 +1,18 @@
 # Upscroller Plugin for Framework7
 
-This plugin creates a blue button which will slides in from the top of the screen when the user has scrolled down. When clicked or sliding back up manually, the button disappears.
+This plugin creates a blue button which slides in from the top of the screen when the user has scrolled down. When clicked or sliding back up manually, the button disappears.
 
-![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/92f8fb331ff5e009c80d06613d40899a050bdc36/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/master/demo.gif)
 
 ## Example
+- Open `demo/dist/index.html` in your browser.
+- For demo source code check `demo/src/index.js`.
+- If you want you can run a new build by doing:
 
-Plugin comes with demo example to see how it works and looks. Go to directory `demo/dist` and open `index.html`. For demo source code check `demo/src/index.js`. If you want you can run a new build by doing: `npm install` and then `npm run build`.
+```shell
+$ cd demo
+$ npm install
+$ npm run build
 
 ## Live demo
 Check it here http://www.timo-ernst.net/misc/upscrollerdemo/
