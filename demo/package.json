@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Timo Ernst",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "f7-upscroller": "github:valnub/Framework7-Upscroller-Plugin"
+  }
 }
