@@ -1,0 +1,11 @@
+{
+  "name": "f7-upscroller-demo",
+  "version": "2.1.0-beta",
+  "description": "A demo app that shows how to use f7-upscroller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Ernst",
+  "license": "MIT"
+}

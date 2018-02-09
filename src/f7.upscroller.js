@@ -1,4 +1,4 @@
-f7UpscrollerPlugin = {
+module.exports = {
 	name: 'upscroller',
 	params: {
 		upscroller: {
