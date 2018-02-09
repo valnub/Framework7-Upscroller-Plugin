@@ -5,9 +5,12 @@ This plugin creates a blue button which slides in from the top of the screen whe
 ![Screenshot](https://raw.githubusercontent.com/valnub/Framework7-Upscroller-Plugin/master/demo.gif)
 
 ## Example
-- Open `demo/dist/index.html` in your browser.
-- For demo source code check `demo/src/index.js`.
-- If you want you can run a new build by doing:
+Open `demo/dist/index.html` in your browser.
+
+### Demo source code
+Check `demo/src/index.js`.
+
+### Run a new demo build:
 
 ```shell
 $ cd demo
@@ -18,16 +21,7 @@ $ npm run build
 ## Live demo
 Check it here http://www.timo-ernst.net/misc/upscrollerdemo/
 
-### F7 compatibility
-- v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
-- v2: Yes
-
-| F7 version    | Compatible?   |
-| ------------- |:-------------:|
-| 1.x           | No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).) |
-| 2.x (V2)      | Yes      |
-
-## How to use
+## Install
 
 ```
 npm install f7-upscroller
@@ -71,6 +65,16 @@ var app = new Framework7({
   },
 });
 ```
+
+### F7 compatibility
+- v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
+- v2: Yes
+
+| F7 version    | Compatible?   |
+| ------------- |:-------------:|
+| 1.x           | No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).) |
+| 2.x (V2)      | Yes      |
+
 
 ## That's it. Happy coding! :-)
 
