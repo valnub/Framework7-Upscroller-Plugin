@@ -13,6 +13,7 @@ This plugin creates a blue button which slides in from the top of the screen whe
 $ cd demo
 $ npm install
 $ npm run build
+```
 
 ## Live demo
 Check it here http://www.timo-ernst.net/misc/upscrollerdemo/
