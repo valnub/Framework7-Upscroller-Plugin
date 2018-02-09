@@ -57,9 +57,6 @@ Open `demo/dist/index.html` in your browser.
 Check `demo/src/index.js`
 
 ### F7 compatibility
-- v1: No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).)
-- v2: Yes
-
 | F7 version    | Compatible?   |
 | ------------- |:-------------:|
 | 1.x           | No (For older version with compatibility of F7 v1 check [here](https://github.com/valnub/Framework7-Upscroller-Plugin/releases/tag/1.0).) |
