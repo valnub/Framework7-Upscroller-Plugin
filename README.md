@@ -23,7 +23,6 @@ Framework7.use(upscroller);
 var app = new Framework7({
   root: '#app',
   name: 'Upscroller demo',
-  id: 'de.timoernst.f7.upscroller',
   theme: 'ios',
   upscroller: {
     // text: 'Go down',
